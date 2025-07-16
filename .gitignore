@@ -1,0 +1,116 @@
+# Python
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.venv
+env/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Local development
+.token.pickle
+
+# Google Cloud credentials
+*.json
+
+# Specific sensitive files
+agents/videogena2a/.env
+hosts/cli/credentials.json
+
+# Token files
+token.pickle
+**/token.pickle
+
+# System
+.DS_Store
+Thumbs.db
+
+# Python specific
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environments
+.venv/
+env/
+ENV/
+
+# IDE specific
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Local development
+.token.pickle
+*.pyc
+*.pyo
+*.pyd
+
+# Package manager
+uv.lock
+
+# Docker
+.dockerignore
+
+# OS generated files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# User specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+.DS_Store
+
+.env
+
+**.cache

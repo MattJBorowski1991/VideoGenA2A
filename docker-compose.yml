@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  videogena2a:
+    build: .
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
+    environment:
+      - GOOGLE_APPLICATION_CREDENTIALS=/app/videogena2a-fad2fc91e862.json
+    command: uv run --app-dir . --reload hosts.cli

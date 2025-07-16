@@ -1,0 +1,23 @@
+# Credentials
+credentials.json
+service-account-key.json
+
+# Token file
+token.pickle
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+
+# IDE specific files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
